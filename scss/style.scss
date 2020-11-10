@@ -120,10 +120,11 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
+    height: 350px;
 
     .product-img {
       background-color: $active-color;
-      height: 300px;
+      height: 350px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -135,7 +136,7 @@ nav {
     }
 
     .product-info {
-      height: 200px;
+      height: 100px;
 
       h2 {
         display: inline;
