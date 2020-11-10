@@ -174,7 +174,7 @@ nav .menu li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .testimonials-container .testimonials .testimonial-content {
@@ -251,8 +251,8 @@ nav .menu li a:hover {
 
 .contact .container .details .icon {
   margin: 1.5rem 0;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: #f4f4f4;
   display: flex;
@@ -263,6 +263,7 @@ nav .menu li a:hover {
 
 .contact .container .details .details-info {
   margin-left: 1rem;
+  color: #fff;
 }
 
 .contact form {

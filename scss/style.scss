@@ -164,7 +164,7 @@ nav {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 3rem;
+      padding: 2rem;
 
       &-content {
         background-color: red;
@@ -238,8 +238,8 @@ nav {
       }
       .icon {
         margin: 1.5rem 0;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         background-color: $light-color;
         display: flex;
@@ -250,6 +250,7 @@ nav {
 
       .details-info {
         margin-left: 1rem;
+        color: #fff;
       }
     }
   }
