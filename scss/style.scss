@@ -203,18 +203,7 @@ nav {
   width: 100%;
   height: 900px;
   position: relative;
-  background: url('/img/overlay.jpg') no-repeat center center/cover;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-  }
+  background-color: #447a9c;
 
   .container {
     display: grid;
