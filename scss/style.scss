@@ -10,17 +10,27 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 85px;
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
+  padding: 0 3rem;
 
-  li {
-    display: inline-block;
-    margin-right: 1.3rem;
-    font-weight: 600;
-    // z-index: 2;
+  .menu{
+
+    li {
+      display: inline-block;
+      margin-left: 1.3rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      // z-index: 2;
+
+      a:hover {
+        color: $active-color;
+      }
+    }
   }
+
 }
 
 #showcase {
