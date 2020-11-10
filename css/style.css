@@ -733,3 +733,28 @@ footer .copyright {
   color: #f4f4f4;
   padding: 0.5rem 0.9rem;
 }
+
+@media (max-width: 768px) {
+  #showcase {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  #showcase .showcase-content {
+    text-align: center;
+  }
+  #showcase .showcase-content > h1 {
+    font-size: 3rem;
+  }
+  #showcase .showcase-content > p {
+    font-size: 1.2rem;
+  }
+  #showcase .showcase-img {
+    display: none;
+  }
+  .uses .container {
+    grid-template-columns: 1fr;
+  }
+  .uses .container .uses-img {
+    display: none;
+  }
+}
